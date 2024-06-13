@@ -76,7 +76,7 @@ function BookingForm({ onClose }) {
       let updatedSeatCategory = [];
 
       if (checked) {
-        updatedSeatCategory = [value]; // Only select the current checkbox
+        updatedSeatCategory = [value]; 
       }
       setFormData((prevState) => ({
         ...prevState,
