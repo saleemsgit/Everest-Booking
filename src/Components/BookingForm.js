@@ -15,7 +15,6 @@ function BookingForm({ onClose }) {
   const handleCheckboxChange = (event) => {
     const { value } = event.target;
 
-    // Update the selected checkbox and label value
     setSelectedCheckbox(value);
     switch (value) {
       case "1":
